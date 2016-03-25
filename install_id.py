@@ -1,0 +1,1 @@
+INSTALLATION_ID = "inst_id_chg"

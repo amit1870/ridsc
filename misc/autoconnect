@@ -1,0 +1,26 @@
+#!/bin/bash
+# This script starts wvdial if 3G connection required
+
+case "$1" in
+    start)
+    echo "Starting GPRS Internet"
+    # run application you want to start
+    sudo usb_modeswitch -c /etc/usb_modeswitch.conf
+    sleep 5 
+    sudo modprobe usbserial vendor=0x12d1 product=0x1436
+    sleep 10
+    sudo wvdial &
+    ;;
+
+    stop)
+    echo "Stopping GPRS Internet"
+    # kill application you want to stop
+    sudo killall wvdial
+    ;;
+    *)
+    echo "Usage: /etc/init.d/noip {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

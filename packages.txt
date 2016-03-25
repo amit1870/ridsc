@@ -1,0 +1,1 @@
+git-core python-pip python-netifaces python-simplejson python-imaging python-dev uzbl sqlite3 supervisor omxplayer x11-xserver-utils libx11-dev watchdog chkconfig feh fbi python-dateutil python-bs4 ppp usb-modeswitch wvdial vim	locales-all	youtube-dl scrot

@@ -1,0 +1,101 @@
+body{
+    background: #000 center no-repeat;
+    margin: 0px;
+}
+.star{
+    font-family: 'Open Sans', serif;
+    vertical-align: -8px;
+}
+#sidebar_wrapper {            
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow: hidden;
+    background-color: #27ae60;
+    color:#ecf0f1;
+    vertical-align: middle;
+    /*line-height: 2em;*/
+    font-size: 2em;   
+}
+
+#logo_wrapper{
+    position:relative;
+    float:top;
+    top:0px;
+    height:25%;
+    width: 100%;
+    overflow: hidden;
+    text-align:center;
+}
+#logo{
+  width:auto; height:auto; max-width:90%;max-height:90%;
+  padding:25px 15px 0px 15px;
+
+}
+
+#event_wrapper{
+    position: relative;
+    top:5px;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    display:table;
+
+}
+
+#event {
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    padding:0px 20px;
+    display:table-cell;
+}
+#clock_wrapper {
+    line-height: 1.2em;
+    font-size: 0.8em; 
+    bottom:0px;
+    position: absolute; bottom: 0; left: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: right;
+    /*text-align: center;*/
+    font-family:serif;
+    font-style: normal;
+
+}
+
+#clock {
+    margin-left:50px;
+    padding-top: 15px;
+    border-top: 1px solid white;
+    padding-right: 20px;    
+}
+#day {
+    padding-right: 20px;      
+}
+#date {
+    padding-right: 20px;
+}
+
+#tickr_wrapper{            
+    position:absolute;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #2980b9;
+    color:#ecf0f1;
+    vertical-align: middle;
+    line-height: 2em;
+    font-size: 2em;    
+}
+
+#tickr_content_wrapper{
+    display: inline-block;
+    position:relative;
+    float:bottom;
+    height:100%;
+    width: 100%;            
+}

@@ -1,0 +1,2 @@
+#!/bin/bash
+#'eval `keychain --noask --eval /var/www/client/sshkey` || exit 1
